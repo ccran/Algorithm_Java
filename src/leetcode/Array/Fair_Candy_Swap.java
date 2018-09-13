@@ -1,5 +1,7 @@
 package leetcode.Array;
 
+import java.util.Arrays;
+
 /**
  * Alice and Bob have candy bars of different sizes: A[i] is the size of the i-th bar of candy that Alice has, and B[j] is the size of the j-th bar of candy that Bob has.
  * <p>
@@ -33,7 +35,25 @@ package leetcode.Array;
 public class Fair_Candy_Swap {
     static class Solution {
         public static int[] fairCandySwap(int[] A, int[] B) {
+            int sumA = 0, sumB = 0;
+            for (int tmp : A)
+                sumA += tmp;
+            for (int tmp : B)
+                sumB += tmp;
+            int diff = (sumA - sumB) / 2;
+            for (int i = 0; i < A.length; i++) {
+                for (int j = 0; j < B.length; j++) {
+                    if (A[i] - B[j] == diff) {
+                        return new int[]{A[i], B[j]};
+                    }
+                }
+            }
             return null;
+        }
+
+        public static void main(String[] args) {
+            int[] res = fairCandySwap(new int[]{1,2},new int[]{2,3});
+            System.out.println(Arrays.toString(res));
         }
     }
 }
