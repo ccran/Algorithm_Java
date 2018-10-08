@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="282a945f-1a2f-4bf1-abfa-33d1cb8f01cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/HNUCCF/Test10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/HNUCCF/Test10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HNUCCF/Test9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HNUCCF/Test9.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestTemplete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HNUCCF/TestTemplete.java">
+      <file leaf-file-name="Test13.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="152">
+              <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test10.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test10.java">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="657" selection-start-line="657" selection-end-line="657" />
             </state>
           </provider>
         </entry>
@@ -97,10 +108,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/Array/Pascals_Triangle.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/CalendarProblem.java" />
         <option value="$PROJECT_DIR$/src/CCF/ObjectSort.java" />
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test1.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/TestTemplete.java" />
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test2.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DynamicProgramming.java" />
+        <option value="$PROJECT_DIR$/src/HNUCCF/Test1.java" />
+        <option value="$PROJECT_DIR$/src/HNUCCF/Test2.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/Test3.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/Test4.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/Test5.java" />
@@ -109,6 +120,9 @@
         <option value="$PROJECT_DIR$/src/HNUCCF/Test8.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/Test9.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/Test10.java" />
+        <option value="$PROJECT_DIR$/src/HNUCCF/Test11.java" />
+        <option value="$PROJECT_DIR$/src/HNUCCF/Test12.java" />
+        <option value="$PROJECT_DIR$/src/HNUCCF/Test13.java" />
       </list>
     </option>
   </component>
@@ -122,8 +136,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="139" />
-    <option name="y" value="127" />
+    <option name="x" value="294" />
+    <option name="y" value="212" />
     <option name="width" value="1376" />
     <option name="height" value="935" />
   </component>
@@ -135,22 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Algorithm" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Algorithm" type="616d4139:PackageViewModuleNode" />
-              <item name="leetcode" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,7 +190,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Algorithm" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Algorithm" type="616d4139:PackageViewModuleNode" />
+              <item name="leetcode" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,24 +236,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test10">
+  <component name="RunManager" selected="Application.Test13">
     <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HNUCCF.Test10" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HNUCCF.Test5" />
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HNUCCF.Test11" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HNUCCF.Test6" />
+    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HNUCCF.Test12" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HNUCCF.Test7" />
+    <configuration name="Test13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HNUCCF.Test13" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -290,19 +304,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test5" />
-      <item itemvalue="Application.Test6" />
-      <item itemvalue="Application.Test7" />
       <item itemvalue="Application.Test9" />
       <item itemvalue="Application.Test10" />
+      <item itemvalue="Application.Test11" />
+      <item itemvalue="Application.Test12" />
+      <item itemvalue="Application.Test13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test13" />
+        <item itemvalue="Application.Test12" />
+        <item itemvalue="Application.Test11" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test9" />
-        <item itemvalue="Application.Test7" />
-        <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +339,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3281075" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.22284435" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.343785" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.29787233" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.343785" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25419933" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -378,27 +392,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Positions_of_Large_Groups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1334" column="22" selection-start-line="1334" selection-start-column="22" selection-end-line="1334" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/sunec.jar!/source_tips">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar!/source_tips">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -528,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/DynamicProgramming.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1371">
@@ -549,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
@@ -567,20 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2040">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="111" column="69" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -619,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -647,27 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,49 +630,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test7.java">
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/TestTemplete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="512">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test9.java">
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HNUCCF/TestTemplete.java">
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="-408">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test10.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test12.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2437#2438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="657" selection-start-line="657" selection-end-line="657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
