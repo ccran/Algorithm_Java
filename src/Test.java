@@ -1,15 +1,25 @@
-import java.util.Arrays;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class Test {
-    public static void main(String[] args) {
-        //排序
-        int[] arr = {-1, -2, -5, 5, 3, 2, 1};
-        Arrays.sort(arr);
-        for (int a : arr) {
-            System.out.println(a);
-        }
-        //
-        boolean[][] visited = new boolean[1][1];
-        System.out.println(visited[0][0]);
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Class testClass = Class.forName("Test");
+        Method setNameMethod = testClass.getMethod("setName",String.class);
+        Test test1 = new Test(),test2=new Test();
+        setNameMethod.invoke(test1,"hello");
+        setNameMethod.invoke(test2,"nihao");
+        System.out.println(setNameMethod.getParameterTypes()[0].equals(Integer.class));
+        System.out.println(test1.getName());
+        System.out.println(test2.getName());
     }
 }
