@@ -5,6 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Scanner;
 
+/**
+ * 输入模板
+ */
 public class TestTemplete {
     private static final boolean commit = false;
 
