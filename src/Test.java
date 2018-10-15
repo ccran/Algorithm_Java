@@ -3,7 +3,9 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Test {
     private String name;
@@ -30,25 +32,13 @@ public class Test {
         System.out.println(test2.getName());
     }
 
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
-        boolean commit = false;
-        InputStream inputStream = null;
-        //从文件流读取输入
-        if (!commit) {
-            try {
-                inputStream = new FileInputStream("F:\\in.txt");
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-        } else {
-            inputStream = System.in;
-        }
-        Scanner scanner = new Scanner(inputStream);
-        int i = scanner.nextInt();
-        System.out.println("i:" + i);
-        String str = scanner.nextLine();
-        System.out.println("str:" + str);
-        str = scanner.nextLine();
-        System.out.println("str:" + str);
+    private static boolean commit = true;
+
+    public static void main(String[] args) {
+        String hello = "hello";
+        String helloWorld = "hello world";
+        System.out.println(Arrays.toString(hello.split(" ")));
+        System.out.println(Arrays.toString(helloWorld.split(" ")));
     }
+
 }
