@@ -52,6 +52,16 @@ import java.util.*;
 public class Test35 {
     private static final boolean commit = true;
 
+    //得分
+    public static class Score {
+        //积分
+        int grade;
+        //净胜球
+        int win;
+        //进球数
+        int enter;
+    }
+
     //程序入口
     public static void main(String[] args) {
         InputStream inputStream = null;
@@ -68,10 +78,10 @@ public class Test35 {
         Scanner scanner = new Scanner(inputStream);
         //循环获取输入
         //输入队伍
-        Map<String, Integer> teamScoreMap = new HashMap<>();
+        Map<String, Score> teamScoreMap = new HashMap<>();
         int teamNum = scanner.nextInt();
         for (int i = 0; i < teamNum; i++) {
-            teamScoreMap.put(scanner.next(), 0);
+            teamScoreMap.put(scanner.next(), new Score());
         }
         scanner.nextLine();
         //输入比赛
@@ -80,31 +90,62 @@ public class Test35 {
             String line = scanner.nextLine();
             String[] match = line.split(" |-|:");
             int score1 = Integer.parseInt(match[2]), score2 = Integer.parseInt(match[3]);
+            //队伍1比分
+            Score team1Score = teamScoreMap.get(match[0]);
+            //队伍2比分
+            Score team2Score = teamScoreMap.get(match[1]);
+            //队伍2获胜
             if (score1 < score2) {
-                teamScoreMap.put(match[1], teamScoreMap.get(match[1]) + 3);
+                //队伍1设置
+                team1Score.enter += score1;
+                //队伍2设置
+                team2Score.grade += 3;
+                team2Score.win += (score2 - score1);
+                team2Score.enter += score2;
             } else if (score1 > score2) {
-                teamScoreMap.put(match[0], teamScoreMap.get(match[0]) + 3);
+                //队伍1设置
+                team1Score.grade += 3;
+                team1Score.win += (score1 - score2);
+                team1Score.enter += score1;
+                //队伍2设置
+                team2Score.enter += score2;
             } else {
-                teamScoreMap.put(match[0], teamScoreMap.get(match[0]) + 1);
-                teamScoreMap.put(match[1], teamScoreMap.get(match[1]) + 1);
+                //队伍1设置
+                team1Score.grade += 1;
+                team1Score.enter += score1;
+                //队伍2设置
+                team2Score.grade += 1;
+                team2Score.enter += score2;
             }
+            teamScoreMap.put(match[0], team1Score);
+            teamScoreMap.put(match[1], team2Score);
         }
         //获取前n/2名
-        List<Map.Entry<String, Integer>> teamList = new ArrayList<>(teamScoreMap.entrySet());
-        Collections.sort(teamList, new Comparator<Map.Entry<String, Integer>>() {
+        List<Map.Entry<String, Score>> teamList = new ArrayList<>(teamScoreMap.entrySet());
+        Collections.sort(teamList, new Comparator<Map.Entry<String, Score>>() {
             @Override
-            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                return o2.getValue() - o1.getValue();
+            public int compare(Map.Entry<String, Score> o1, Map.Entry<String, Score> o2) {
+                Score score1 = o1.getValue(), score2 = o2.getValue();
+                if (score1.grade == score2.grade) {
+                    if (score1.win == score2.win) {
+                        return score2.enter - score1.enter;
+                    } else {
+                        return score2.win - score1.win;
+                    }
+                } else {
+                    return score2.grade - score1.grade;
+                }
             }
         });
         teamList = teamList.subList(0, teamList.size() / 2);
-        Collections.sort(teamList, new Comparator<Map.Entry<String, Integer>>() {
+        Collections.sort(teamList, new Comparator<Map.Entry<String, Score>>() {
             @Override
-            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+            public int compare(Map.Entry<String, Score> o1, Map.Entry<String, Score> o2) {
                 return o1.getKey().compareTo(o2.toString());
             }
         });
-        for(Map.Entry<String, Integer> team:teamList){
+        //输出结果
+        for (Map.Entry<String, Score> team : teamList) {
             System.out.println(team.getKey());
         }
     }
