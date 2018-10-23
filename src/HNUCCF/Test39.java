@@ -67,6 +67,7 @@ public class Test39 {
             while (newInputStr.length() < inputStr.length()) {
                 newInputStr = "0" + newInputStr;
             }
+            //长度不同直接退出
             if (newInputStr.length() != inputStr.length()) {
                 isRecycle = false;
                 break;
