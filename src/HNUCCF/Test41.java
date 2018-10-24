@@ -53,14 +53,40 @@ import java.util.*;
  * ivan 4 2 123 456 789
  */
 public class Test41 {
-    private static final boolean commit = false;
+    private static final boolean commit = true;
 
     //判断一个串a是否是另一个串b的后缀
-    public boolean isSuffix(String longer, String shorter) {
+    public static boolean isSuffix(String longer, String shorter) {
         int index = longer.indexOf(shorter);
         if (index == -1)
             return false;
         return index + shorter.length() == longer.length();
+    }
+    
+    //在一个电话列表里面添加电话
+    public static void addPhoneToList(String phone,List<String> phoneList){
+    	//列表中没有电话则直接添加
+    	if(phoneList.isEmpty()){
+    		phoneList.add(phone);
+    	}
+    	//去掉重复或后缀元素并添加
+    	int i = 0;
+    	while(i<phoneList.size()){
+    		//获取长串和短串
+    		String longerStr = phone.length()<phoneList.get(i).length()?phoneList.get(i):phone;
+    		String shorterStr = phone.length()<phoneList.get(i).length()?phone:phoneList.get(i);
+    		//如果是后缀则进行替换
+    		if(isSuffix(longerStr, shorterStr)){
+    			phoneList.set(i, longerStr);
+    			break;
+    		}
+    		//移动
+    		++i;
+    	}
+    	//没有重复或后缀元素
+    	if(i==phoneList.size()){
+    		phoneList.add(phone);
+    	}
     }
 
     //程序入口
@@ -77,28 +103,48 @@ public class Test41 {
             inputStream = System.in;
         }
         Scanner scanner = new Scanner(inputStream);
-        List<Object> ll = new ArrayList<>();
         //输入电话号码数
         int m = scanner.nextInt();
+        //TreeMap默认根据key升序
         Map<String, List<String>> namePhoneMap = new TreeMap<>();
+        //输入联系人以及电话号码
         for (int i = 0; i < m; i++) {
             //输入名称
             String name = scanner.next();
             //判断是否存在了该名称
             if (!namePhoneMap.containsKey(name)) {
-                namePhoneMap.put(name, new ArrayList<>());
+                namePhoneMap.put(name, new ArrayList<String>());
             }
             //电话数量
             int phoneNum = scanner.nextInt();
-            //输入电话
             for (int j = 0; j < phoneNum; j++) {
+            	//输入电话
                 String inputPhone = scanner.next();
-                List<String> phoneList = namePhoneMap.get(name);
-                boolean canAdd = true;
-                for (String phone : phoneList) {
-
-                }
+                //添加电话
+                addPhoneToList(inputPhone,namePhoneMap.get(name));
             }
+        }
+        //输出结果
+        //联系人数量
+        System.out.println(namePhoneMap.size());
+        //详细联系人
+        for(Map.Entry<String, List<String>> contact:namePhoneMap.entrySet()){
+        	System.out.print(contact.getKey()+" "+contact.getValue().size());
+        	//对电话号码排序
+        	Collections.sort(contact.getValue(),new Comparator<String>() {
+				@Override
+				public int compare(String o1, String o2) {
+					if(o1.length()==o2.length()){
+						return o1.compareTo(o2);
+					}
+					return o1.length()-o2.length();
+				}
+			});
+        	//输出结果
+        	for(String phone:contact.getValue()){
+        		System.out.print(" "+phone);
+        	}
+        	System.out.println();
         }
     }
 }
