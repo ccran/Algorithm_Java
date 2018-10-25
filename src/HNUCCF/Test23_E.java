@@ -35,7 +35,7 @@ import java.util.Scanner;
  * 1 3 4 9
  * 2 3 4 6
  */
-public class Test23 {
+public class Test23_E {
     private static final boolean commit = false;
 
     //程序入口

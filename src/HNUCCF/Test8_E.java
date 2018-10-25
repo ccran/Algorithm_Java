@@ -30,7 +30,7 @@ import java.util.Scanner;
  * YES
  * NO
  */
-public class Test8 {
+public class Test8_E {
     private static final boolean commit = false;
 
     //程序入口

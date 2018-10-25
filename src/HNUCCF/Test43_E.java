@@ -38,7 +38,7 @@ import java.util.Scanner;
  * 
  * banana apple
  */
-public class Test43 {
+public class Test43_E {
 	private static final boolean commit = true;
 
 	// 排名前10的得分

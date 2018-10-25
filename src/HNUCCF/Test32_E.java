@@ -71,7 +71,7 @@ import java.util.*;
  * 487-3279 4
  * 888-4567 3
  */
-public class Test32 {
+public class Test32_E {
     private static final boolean commit = true;
     private static Map<Character, Integer> dic = null;
 

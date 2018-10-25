@@ -34,7 +34,7 @@ import java.util.Scanner;
  * <p>
  * -3.2.1
  */
-public class Test12 {
+public class Test12_E {
     private static final boolean commit = true;
 
     public static class Money {

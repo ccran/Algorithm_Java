@@ -52,7 +52,7 @@ import java.util.*;
  * dasha 2 23 789
  * ivan 4 2 123 456 789
  */
-public class Test41 {
+public class Test41_E {
     private static final boolean commit = true;
 
     //判断一个串a是否是另一个串b的后缀
@@ -129,15 +129,19 @@ public class Test41 {
         System.out.println(namePhoneMap.size());
         //详细联系人
         for(Map.Entry<String, List<String>> contact:namePhoneMap.entrySet()){
+        	//输出名称以及电话个数
         	System.out.print(contact.getKey()+" "+contact.getValue().size());
         	//对电话号码排序
         	Collections.sort(contact.getValue(),new Comparator<String>() {
 				@Override
 				public int compare(String o1, String o2) {
-					if(o1.length()==o2.length()){
-						return o1.compareTo(o2);
+					int i1 = Integer.parseInt(o1);
+					int i2 = Integer.parseInt(o2);
+					if(i1==i2){
+						return o1.length()-o2.length();
+					}else{
+						return i1-i2;
 					}
-					return o1.length()-o2.length();
 				}
 			});
         	//输出结果
