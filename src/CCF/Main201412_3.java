@@ -22,7 +22,7 @@ import java.util.Set;
 此时的开盘成交量为出价至少为p0的买单的总股数和所有出价至多为p0的卖单的总股数之间的较小值。
 　　你的程序需要确定一个开盘价，使得开盘成交量尽可能地大。如果有多个符合条件的开盘价，你的程序应当输出最高的那一个。
 输入格式
-　　输入数据有任意多行，每一行是一条记录。保证输入合法。股数为不超过108的正整数，出价为精确到恰好小数点后两位的正实数，且不超过10000.00。
+　　输入数据有任意多行，每一行是一条记录。保证输入合法。股数为不超过10的8次的正整数，出价为精确到恰好小数点后两位的正实数，且不超过10000.00。
 输出格式
 　　你需要输出一行，包含两个数，以一个空格分隔。第一个数是开盘价，第二个是此开盘价下的成交量。开盘价需要精确到小数点后恰好两位。
 样例输入
@@ -44,9 +44,9 @@ public static boolean commit = false;
 	public static class Order{
 		public boolean isBuy;
 		public double price;
-		public int num;
+		public long num;//这里务必使用long
 		
-		public Order(boolean isBuy, double price, int num) {
+		public Order(boolean isBuy, double price, long num) {
 			super();
 			this.isBuy = isBuy;
 			this.price = price;
@@ -86,18 +86,18 @@ public static boolean commit = false;
 				}
 				double price = Double.parseDouble(word[1]);
 				lineOrderMap.put(lineCnt, new Order(isBuy,price
-						,Integer.parseInt(word[2])));
+						,Long.parseLong(word[2])));
 				priceList.add(price);
 			}
 		}
 		//创建order列表并排序
 		List<Order> orderList = new ArrayList<>(lineOrderMap.values());
 		Collections.sort(priceList);
-		int maxBuy = 0;
+		long maxBuy = 0;
 		double maxPrice = Double.MIN_VALUE;
 		//遍历再次遍历order计算最大成交量
 		for(double price:priceList){
-			int sumBuy = 0,sumSell = 0;
+			long sumBuy = 0,sumSell = 0;
 			for(Order order:orderList){
 				if(order.isBuy){
 					if(order.price>=price){
@@ -110,7 +110,7 @@ public static boolean commit = false;
 				}
 			}
 			//成交量
-			int min = Math.min(sumSell, sumBuy);
+			long min = Math.min(sumSell, sumBuy);
 			if(min>maxBuy){
 				maxBuy = min;
 				maxPrice = price;

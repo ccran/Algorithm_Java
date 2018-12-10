@@ -1,13 +1,15 @@
 package CCF;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Templete {
 	public static boolean commit = false;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		InputStream is = null;
 		try {
 			if (commit) {
