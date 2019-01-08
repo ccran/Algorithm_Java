@@ -22,26 +22,16 @@ package leetcode.Array;
 public class Min_Cost_Climbing_Stairs {
     static class Solution {
         public static int minCostClimbingStairs(int[] cost) {
-            if (cost.length == 2)
-                return Math.min(cost[0], cost[1]);
-
-            int res = 0, i = cost[1] <= cost[0] + cost[2] ? 1 : 0;
-            while (i < cost.length) {
-                res += cost[i];
-                if (i + 2 < cost.length) {
-                    if (cost[i + 1] >= cost[i + 2])
-                        i += 2;
-                    else
-                        ++i;
-                } else {
-                    break;
-                }
+            //dp表示抵达台阶所用cost
+            int[] dp = new int[cost.length + 1];
+            for (int i = 2; i < dp.length; i++) {
+                dp[i] = Math.min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2]);
             }
-            return res;
+            return dp[dp.length - 1];
         }
 
         public static void main(String[] args) {
-            System.out.println(minCostClimbingStairs(new int[]{0,1,1,1}));
+            System.out.println(minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
         }
     }
 }
