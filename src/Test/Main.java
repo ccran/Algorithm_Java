@@ -1,11 +1,15 @@
 package Test;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println(Arrays.asList("crm".split(":")));
+		String[] res = "hello world".split(" ");
+		Set<String> wordSet = new HashSet<>(Arrays.asList("hello hello world".split(" ")));
+		System.out.println(res);
 	}
 
 }
