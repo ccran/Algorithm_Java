@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="282a945f-1a2f-4bf1-abfa-33d1cb8f01cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/HashTable/Subdomain_Visit_Count$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/HashTable/Subdomain_Visit_Count$Solution.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Employee_Importance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Employee_Importance.java">
+      <file leaf-file-name="Powerful_Integers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Powerful_Integers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="733">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,6 +53,7 @@
       <find>Iterator</find>
       <find>sum</find>
       <find>ArrayList</find>
+      <find>签到</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,11 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test36.java" />
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test37.java" />
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test38.java" />
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test39.java" />
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test40.java" />
         <option value="$PROJECT_DIR$/src/HNUCCF/Test41.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Test1.java" />
@@ -81,7 +79,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/Array/Largest_Perimeter_Triangle.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Array/Squares_of_a_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Array/Non_decreasing_Array.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/leetcode/Array/Maximum_Average_Subarray_I.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Array/Can_Place_Flowers.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Array/Shortest_Unsorted_Continuous_Subarray.java" />
@@ -107,9 +104,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Shortest_Completing_Word.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Number_of_Boomerangs.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Longest_Harmonious_Subsequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Longest_Word_in_Dictionary.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Set_Mismatch.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Employee_Importance.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Intersection_of_Two_Arrays_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Isomorphic_Strings.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Count_Primes.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Longest_Word_in_Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Powerful_Integers.java" />
       </list>
     </option>
   </component>
@@ -136,8 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,16 +164,12 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="HashTable" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +180,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.19742489" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,7 +200,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Find_All_Anagrams_in_a_String">
+    <configuration name="Find_All_Anagrams_in_a_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.Find_All_Anagrams_in_a_String" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Magic_Squares_In_Grid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Array.Magic_Squares_In_Grid" />
       <module name="Algorithm" />
@@ -211,11 +213,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Main" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Maximize_Distance_to_Closest_Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Array.Maximize_Distance_to_Closest_Person" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -271,19 +268,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Maximize_Distance_to_Closest_Person" />
       <item itemvalue="Application.Magic_Squares_In_Grid" />
       <item itemvalue="Application.Min_Cost_Climbing_Stairs$Solution" />
       <item itemvalue="Application.Pascals_Triangle_II" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Find_All_Anagrams_in_a_String" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find_All_Anagrams_in_a_String" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pascals_Triangle_II" />
         <item itemvalue="Application.Min_Cost_Climbing_Stairs$Solution" />
         <item itemvalue="Application.Magic_Squares_In_Grid" />
-        <item itemvalue="Application.Maximize_Distance_to_Closest_Person" />
       </list>
     </recent_temporary>
   </component>
@@ -310,9 +307,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21276596" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35274357" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3538634" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33818588" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3555437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3496802" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -326,30 +323,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.52025586" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35274357" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3281075" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3538634" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.343785" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21276596" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281075" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -408,8 +381,14 @@
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="82" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -422,24 +401,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="1615" column="19" selection-start-line="1615" selection-start-column="19" selection-end-line="1615" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/PrintBarcode.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/DynamicProgramming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Transpose_Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -524,16 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -750,17 +701,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Longest_Word_in_Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Employee_Importance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="157">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HNUCCF/Test38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Intersection_of_Two_Arrays_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Isomorphic_Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Count_Primes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Longest_Word_in_Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Powerful_Integers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
