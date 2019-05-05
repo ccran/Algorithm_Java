@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="282a945f-1a2f-4bf1-abfa-33d1cb8f01cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/leetcode/HashTable/Subdomain_Visit_Count$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/leetcode/HashTable/Subdomain_Visit_Count$Solution.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Powerful_Integers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Powerful_Integers.java">
+      <file leaf-file-name="Word_Pattern.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Word_Pattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <state relative-caret-position="288">
+              <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HNUCCF/Test41.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Test1.java" />
         <option value="$PROJECT_DIR$/src/PrintBarcode.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -106,13 +102,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Longest_Harmonious_Subsequence.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Set_Mismatch.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Employee_Importance.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Intersection_of_Two_Arrays_II.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Isomorphic_Strings.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Count_Primes.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Longest_Word_in_Dictionary.java" />
         <option value="$PROJECT_DIR$/src/leetcode/HashTable/Powerful_Integers.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Happy_Number.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/HashTable/Word_Pattern.java" />
       </list>
     </option>
   </component>
@@ -139,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,7 +168,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,14 +198,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Find_All_Anagrams_in_a_String">
+  <component name="RunManager" selected="Application.Word_Pattern">
     <configuration name="Find_All_Anagrams_in_a_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.Find_All_Anagrams_in_a_String" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Magic_Squares_In_Grid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Array.Magic_Squares_In_Grid" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -223,6 +216,11 @@
     </configuration>
     <configuration name="Pascals_Triangle_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Array.Pascals_Triangle_II" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Word_Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.HashTable.Word_Pattern" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -268,19 +266,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Magic_Squares_In_Grid" />
       <item itemvalue="Application.Min_Cost_Climbing_Stairs$Solution" />
       <item itemvalue="Application.Pascals_Triangle_II" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Find_All_Anagrams_in_a_String" />
+      <item itemvalue="Application.Word_Pattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Word_Pattern" />
         <item itemvalue="Application.Find_All_Anagrams_in_a_String" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pascals_Triangle_II" />
         <item itemvalue="Application.Min_Cost_Climbing_Stairs$Solution" />
-        <item itemvalue="Application.Magic_Squares_In_Grid" />
       </list>
     </recent_temporary>
   </component>
@@ -301,15 +299,16 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281075" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.343785" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21276596" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.35274357" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24076147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.35274357" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33818588" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3496802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35341153" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -318,7 +317,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281075" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -381,12 +379,6 @@
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="82" />
     </breakpoint-manager>
@@ -401,27 +393,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Transpose_Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Valid_Mountain_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Sort_Array_By_Parity_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Array/X_of_a_Kind_in_a_Deck_of_Cards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -701,16 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Employee_Importance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -722,16 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,10 +714,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Find_All_Anagrams_in_a_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Powerful_Integers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="397">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Happy_Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="226" column="70" lean-forward="true" selection-start-line="226" selection-start-column="70" selection-end-line="226" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/HashTable/Word_Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
