@@ -51,10 +51,10 @@ public class Middle_of_the_Linked_List {
             return res;
         }
 
-        public ListNode middleNode_MS(ListNode head){
-            if(head==null) return null;
-            ListNode slow = head,fast = head;
-            while(fast!=null && fast.next!=null){
+        public ListNode middleNode_MS(ListNode head) {
+            if (head == null) return null;
+            ListNode slow = head, fast = head;
+            while (fast != null && fast.next != null) {
                 slow = slow.next;
                 fast = fast.next.next;
             }
