@@ -1,15 +1,18 @@
 package Test;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-		String[] res = "hello.world".split("\\.");
-		Set<String> wordSet = new HashSet<>(Arrays.asList("hello hello world".split(" ")));
-		System.out.println(res);
-	}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+
+        scanner.nextLine();
+        for (int i = 0; i < n; i++) {
+            String line = scanner.nextLine();
+            System.out.println(line);
+        }
+    }
 
 }
